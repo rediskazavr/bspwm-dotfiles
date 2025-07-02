@@ -17,14 +17,14 @@ sudo pacman -S xorg xorg-xinit bspwm sxhkd polybar alacritty feh dmenu git base-
 mkdir -p ~/.config
 
 # Copy dotfiles (with -r for directories)
-cp ~/BSPURE/dotfiles/wallpaper.png ~/.config/
-cp -r ~/BSPURE/dotfiles/fastfetch/ ~/.config/
-cp -r ~/BSPURE/dotfiles/alacritty/ ~/.config/
-cp -r ~/BSPURE/dotfiles/polybar/ ~/.config/
-cp -r ~/BSPURE/dotfiles/bspwm/ ~/.config/
-cp -r ~/BSPURE/dotfiles/sxhkd/ ~/.config/
-cp -r ~/BSPURE/dotfiles/picom/ ~/.config/
-cp -r ~/BSPURE/dotfiles/rofi/ ~/.config/
+cp ~/bspwm-dotfiles/dotfiles/wallpaper.png ~/.config/
+cp -r ~/bspwm-dotfiles/dotfiles/fastfetch/ ~/.config/
+cp -r ~/bspwm-dotfiles/dotfiles/alacritty/ ~/.config/
+cp -r ~/bspwm-dotfiles/dotfiles/polybar/ ~/.config/
+cp -r ~/bspwm-dotfiles/dotfiles/bspwm/ ~/.config/
+cp -r ~/bspwm-dotfiles/dotfiles/sxhkd/ ~/.config/
+cp -r ~/bspwm-dotfiles/dotfiles/picom/ ~/.config/
+cp -r ~/bspwm-dotfiles/dotfiles/rofi/ ~/.config/
 chmod +x ~/.config/bspwm/bspwmrc
 
 # Install zsh and Oh My Zsh (for current user, not root)
@@ -39,7 +39,7 @@ exec bspwm
 EOF
 
 # Install yay (as normal user)
-cd ~/BSPURE/packages/yay/
+cd ~/bspwm-dotfiles/packages/yay/
 makepkg -si --noconfirm
 
 # Install Fonts (yay doesn't need sudo)
@@ -53,8 +53,8 @@ yay -S picom-git --noconfirm
 mkdir -p ~/.local/share/icons/
 mkdir -p ~/.local/share/themes/
 
-cp -r ~/BSPURE/gtk/icons/Sunset-cursor/ ~/.local/share/icons
-cp -r ~/BSPURE/gtk/themes/Sunrise-Dark/ ~/.local/share/themes
+cp -r ~/bspwm-dotfiles/gtk/icons/Sunset-cursor/ ~/.local/share/icons
+cp -r ~/bspwm-dotfiles/gtk/themes/Sunrise-Dark/ ~/.local/share/themes
 
 gsettings set org.gnome.desktop.interface cursor-theme "Sunset Cursors"
 gsettings set org.gnome.desktop.interface gtk-theme "Sunrise-Dark"
