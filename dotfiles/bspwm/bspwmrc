@@ -1,18 +1,13 @@
 #!/bin/bash
-# $$$$$$$\   $$$$$$\  $$$$$$$\  $$\   $$\ $$$$$$$\  $$$$$$$$\ 
-# $$  __$$\ $$  __$$\ $$  __$$\ $$ |  $$ |$$  __$$\ $$  _____|
-# $$ |  $$ |$$ /  \__|$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |      
-# $$$$$$$\ |\$$$$$$\  $$$$$$$  |$$ |  $$ |$$$$$$$  |$$$$$\    
-# $$  __$$\  \____$$\ $$  ____/ $$ |  $$ |$$  __$$< $$  __|   
-# $$ |  $$ |$$\   $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |      
-# $$$$$$$  |\$$$$$$  |$$ |      \$$$$$$  |$$ |  $$ |$$$$$$$$\ 
-# \_______/  \______/ \__|       \______/ \__|  \__|\________|
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#dotfiles created by rediskazavr
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # start program
 picom &
 polybar &
 alacritty &
-feh --bg-scale ~/.config/wallpaper.png &
+feh --bg-scale ~/.config/wallpapers/cookie.jpg &
 # xrandr --output Virtual-1 --mode 1920x1080 --rate 60 & # if you using Virtual Machine and resolution work not correctly
 
 pgrep -x sxhkd > /dev/null || sxhkd &
