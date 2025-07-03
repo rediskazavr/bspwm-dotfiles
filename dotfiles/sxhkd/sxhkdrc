@@ -18,7 +18,7 @@ super + Escape
 
 # thunar manager
 super + t
-    thunar
+    lf
 
 # bspwm hotkeys
 #
