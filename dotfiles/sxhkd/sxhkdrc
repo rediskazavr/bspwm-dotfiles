@@ -16,13 +16,21 @@ super + d
 super + Escape
     pkill -USR1 -x sxhkd
 
-# thunar manager
+# lf manager
 super + t
-    lf
+    alacritty -e bash -c "lf && bash"
 
 # screenshots
 super + shift + s
     maim sreenshot.png
+
+# clock
+super + c
+    alacritty -e bash -c "tty-clock -c -C 3 && bash"
+
+# music
+super + m
+    alacritty -e bash -c "ncmpcpp && bash"
 
 # bspwm hotkeys
 #

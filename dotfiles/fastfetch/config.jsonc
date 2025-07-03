@@ -5,15 +5,15 @@
         "source": "arch",
         "width": 65,
         "height": 35,
-        "colors": [
-            "#FFA500"  
-        ],
-        "colorMode": "static"  
+        "color":{
+            "1":"yellow",
+            "2": "yellow"
+        }
     },
     "display": {
         "color": {
-            "keys": "#FFA500",  
-            "title": "#FF8C00"   
+            "keys": "yellow",  
+            "title": "yellow"   
         }
     },
     "modules": [

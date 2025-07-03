@@ -5,7 +5,7 @@
 
 #UPDATE&INSTALL PACKAGES
 sudo pacman -Syu
-sudo pacman -S xorg xorg-xinit bspwm sxhkd polybar alacritty feh dmenu git base-devel neovim fastfetch cava cmatrix maim firefox lf zsh ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd --noconfirm
+sudo pacman -S xorg xorg-xinit bspwm sxhkd polybar alacritty feh dmenu git base-devel neovim fastfetch cava cmatrix maim firefox btop ncmpcpp lf zsh ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd --noconfirm
 
 #CREATE&COPY CONFIGS
 mkdir -p ~/.config
