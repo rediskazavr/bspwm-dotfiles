@@ -1,0 +1,5 @@
+set colors
+
+set dircolor 33
+
+export LF_COLORS="di=33:fi=0:ln=36:or=31:mi=31:ex=35"
