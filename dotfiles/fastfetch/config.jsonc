@@ -6,16 +6,14 @@
         "width": 65,
         "height": 35,
         "colors": [
-            "#9a4fe8", 
-            "#c56cf0",  
-            "#ff7b25"   
+            "#FFA500"  
         ],
-        "colorMode": "gradient" 
+        "colorMode": "static"  
     },
     "display": {
         "color": {
-            "keys": "#9a4fe8",  
-            "title": "#ff7b25"
+            "keys": "#FFA500",  
+            "title": "#FF8C00"   
         }
     },
     "modules": [
@@ -26,27 +24,10 @@
         "kernel",
         "uptime",
         "packages",
-        "shell",
-        "display",
-        "de",
-        "wm",
-        "wmtheme",
-        "theme",
-        "icons",
-        "font",
-        "cursor",
-        "terminal",
-        "terminalfont",
         "cpu",
         "gpu",
         "memory",
-        "swap",
         "disk",
-        "localip",
-        "battery",
-        "poweradapter",
-        "locale",
-        "break",
         "colors"
     ]
 }

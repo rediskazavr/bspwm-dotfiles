@@ -11,7 +11,7 @@ super + Return
     alacritty
 # program launcher
 super + d
-    dmenu_run -nb "#111111" -nf "#8B0000" -sb "#8B0000" -sf "#FFFFFF"
+    dmenu_run -nb "#111111" -nf "#C5C8C6" -sb "#FF8C00" -sf "#111111"
 # make sxhkd reload its configuration files:
 super + Escape
     pkill -USR1 -x sxhkd
@@ -19,6 +19,10 @@ super + Escape
 # thunar manager
 super + t
     lf
+
+# screenshots
+super + shift + s
+    maim sreenshot.png
 
 # bspwm hotkeys
 #
