@@ -5,7 +5,7 @@
 
 #UPDATE&INSTALL PACKAGES
 sudo pacman -Syu
-sudo pacman -S xorg xorg-xinit bspwm sxhkd polybar alacritty feh dmenu git base-devel neovim fastfetch cava cmatrix maim firefox btop ncmpcpp lf zsh ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd --noconfirm
+sudo pacman -S xorg xorg-xinit bspwm sxhkd polybar alacritty xorg-setxkbmap feh dmenu git base-devel neovim fastfetch cava cmatrix maim firefox btop ncmpcpp lf zsh ttf-font-awesome ttf-jetbrains-mono ttf-jetbrains-mono-nerd --noconfirm
 
 #CREATE&COPY CONFIGS
 mkdir -p ~/.config
@@ -16,6 +16,7 @@ cp -r ~/bspwm-dotfiles/dotfiles/polybar/ ~/.config/
 cp -r ~/bspwm-dotfiles/dotfiles/bspwm/ ~/.config/
 cp -r ~/bspwm-dotfiles/dotfiles/sxhkd/ ~/.config/
 cp -r ~/bspwm-dotfiles/dotfiles/picom/ ~/.config/
+cp -r ~/bspwm-dotfiles/dotfiles/lf/ ~/.config/
 chmod +x ~/.config/bspwm/bspwmrc
 
 #INSTALL ZSH THEMES

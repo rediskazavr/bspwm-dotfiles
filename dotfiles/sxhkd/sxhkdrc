@@ -31,7 +31,7 @@ super + c
 # music
 super + m
     alacritty -e bash -c "ncmpcpp && bash"
-
+    
 # bspwm hotkeys
 #
 # quit/restart bspwm
